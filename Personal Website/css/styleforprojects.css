@@ -29,16 +29,17 @@ body {
   left: 50%; /* Align horizontally to center */
   transform: translateX(-50%); /* Move frame to center */
   background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   z-index: 1; /* Ensure the frame is on top of the video */
 }
 
 .slideshow-container {
   position: absolute;
-  top: 100px; /* Adjust top position as needed */
+  top: 95px; /* Adjust top position as needed */
   left: 50%; /* Align horizontally to center */
   transform: translateX(-50%); /* Move slideshow container to center */
+  border-radius: 10px;
   z-index: 1; /* Ensure the slideshow is on top of the video background */
 }
 
@@ -58,8 +59,6 @@ body {
   width: auto;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
-  border: none;
-  color: black;
   font-size: 20px;
   cursor: pointer;
   z-index: 2; /* Ensure the buttons are on top of the slideshow */
@@ -75,6 +74,10 @@ body {
 
 a.button {
   text-decoration: none; /* Remove underline */
+} 
+
+.label{
+  color:black;
 }
 
 button {
@@ -85,7 +88,7 @@ button {
   margin-top: 0.6%;
   font-weight: 500;
   background: #5679ae;
-  color: white;
+  color: rgb(255, 10, 10);
   border: none;
   position: relative;
   overflow: hidden;
@@ -142,7 +145,7 @@ button:active {
   width: auto; /* Adjust width as needed */
   background-color: transparent;
   padding: 10px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: none;
 }
 
 .audio-controls {
