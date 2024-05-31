@@ -1,1 +1,0 @@
-Rancel Duran Personal Website
